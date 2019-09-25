@@ -1,0 +1,255 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F8F8FA;
+}
+
+.courses-header-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+
+.courses-header-text h3 {
+    color: #2F2E36;
+    font-weight: 600;
+}
+
+.courses-header-text span {
+    font-weight: 600;
+    color: #8A8A8C;
+    font-size: 13px;
+}
+
+.courses-header-text span a {
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #313133;
+    transition: color 0.2s;
+}
+
+.courses-header-text span a:hover {
+    color: black;
+}
+
+
+.course-card {
+    margin-bottom: 1.5rem;
+    transition: box-shadow 0.3s;
+}
+
+.course-card:hover {
+    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.15);
+}
+
+.category {
+    cursor: pointer;
+    box-sizing: content-box;
+    padding: 0.1rem 0.3rem;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: baseline;
+    /* max-width: rem; */
+}
+
+
+
+.category h6 {
+    letter-spacing: 1.4px;
+    color: #2F292B;
+    padding: 0;
+    margin: 3px 4px !important;
+}
+
+.category-circle {
+    border-radius: 50% !important;
+    width: 0.9rem;
+    height: 0.9rem;
+
+}
+
+
+
+
+
+
+/* Category colors */
+/* Design */
+.category-design-background {
+    background-color: #FCE9ED;
+}
+
+.category-design-main {
+    background-color: #E6415F;
+}
+
+.category-design-main-link {
+    color: #E6415F;
+}
+
+.category-design-main-link:hover {
+    color: #E6415F;
+}
+
+/* Design end*/
+
+
+
+/* development */
+.category-development-background {
+    background-color: #EDFBFC;
+}
+
+.category-development-main {
+    background-color: #4CD7E4;
+}
+
+.category-development-main-link {
+    color: #4CD7E4;
+}
+
+.category-development-main-link:hover {
+    color: #4CD7E4;
+}
+
+/* development end*/
+
+
+
+
+/* business */
+.category-business-background {
+    background-color: #F6ECF7;
+}
+
+.category-business-main {
+    background-color: #A643B8;
+}
+
+.category-business-main-link {
+    color: #A643B8;
+}
+
+.category-business-main-link:hover {
+    color: #A643B8;
+}
+
+/* Design end*/
+
+
+
+/* Category colors end*/
+
+
+
+
+
+
+.title-mine {
+    min-height: 84px;
+    font-weight: 600;
+}
+
+
+.course-meta {
+    margin: 1rem 0;
+    display: flex;
+}
+
+.course-duration {
+    display: inline-flex;
+    margin-right: 2.5rem;
+}
+
+.course-price {
+    display: inline-flex;
+}
+
+.course-meta h6 {
+    padding: 0px 3px;
+    color: #8A8A8C;
+    font-size: 10px;
+    line-height: 1.5
+}
+
+.course-poster {
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.course-span {
+    display: inline-flex;
+    align-items: baseline;
+
+}
+
+.course-span h3 {
+    margin: 0 1px;
+    color: #8A8A8C;
+}
+
+.course-span a {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.course-span {
+    color: #8A8A8C;
+    font-size: 10px;
+}
+
+.feather {
+    width: 17px;
+    height: 17px;
+    stroke: #8A8A8C;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+
+.more-courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 275px;
+}
+
+.more-inner {
+    text-align: center;
+}
+
+.more-courses h1 {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.more-courses span {
+    font-weight: 500;
+    color: #8A8A8C;
+    font-size: 13px;
+}
+
+.more-courses span a {
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #313133;
+    transition: color 0.2s;
+}
+
+.more-courses span a:hover {
+    color: black;
+}
