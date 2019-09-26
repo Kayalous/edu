@@ -35,9 +35,12 @@ body {
     text-decoration: underline;
     color: #313133;
     transition: color 0.2s;
+    transition: text-shadow 0.15s;
+
 }
 
 .courses-header-text span a:hover {
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
     color: black;
 }
 
@@ -45,10 +48,6 @@ body {
 .course-card {
     margin-bottom: 1.5rem;
     transition: box-shadow 0.3s;
-}
-
-.course-card:hover {
-    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.15);
 }
 
 .category {
@@ -84,19 +83,22 @@ body {
 
 /* Category colors */
 /* Design */
-.category-design-background {
+
+.design-card:hover {
+    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.15),
+        inset 0px 8px 0px 0px #FCE9ED;
+}
+
+.design-card .category {
     background-color: #FCE9ED;
 }
 
-.category-design-main {
+.design-card .category-circle {
     background-color: #E6415F;
 }
 
-.category-design-main-link {
-    color: #E6415F;
-}
-
-.category-design-main-link:hover {
+.design-card .course-span a,
+.design-card .course-span a:hover {
     color: #E6415F;
 }
 
@@ -105,19 +107,22 @@ body {
 
 
 /* development */
-.category-development-background {
+
+.development-card:hover {
+    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.15),
+        inset 0px 8px 0px 0px #EDFBFC;
+}
+
+.development-card .category {
     background-color: #EDFBFC;
 }
 
-.category-development-main {
+.development-card .category-circle {
     background-color: #4CD7E4;
 }
 
-.category-development-main-link {
-    color: #4CD7E4;
-}
-
-.category-development-main-link:hover {
+.development-card .course-span a,
+.development-card .course-span a:hover {
     color: #4CD7E4;
 }
 
@@ -127,19 +132,21 @@ body {
 
 
 /* business */
-.category-business-background {
+.business-card:hover {
+    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.15),
+        inset 0px 8px 0px 0px #F6ECF7;
+}
+
+.business-card .category {
     background-color: #F6ECF7;
 }
 
-.category-business-main {
+.business-card .category-circle {
     background-color: #A643B8;
 }
 
-.category-business-main-link {
-    color: #A643B8;
-}
-
-.category-business-main-link:hover {
+.business-card .course-span a,
+.business-card .course-span a:hover {
     color: #A643B8;
 }
 
@@ -248,8 +255,10 @@ body {
     text-decoration: underline;
     color: #313133;
     transition: color 0.2s;
+    transition: text-shadow 0.15s;
 }
 
 .more-courses span a:hover {
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
     color: black;
 }
