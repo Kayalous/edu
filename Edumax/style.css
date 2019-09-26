@@ -44,10 +44,15 @@ body {
     color: black;
 }
 
+.course-cards-container {
+    overflow: visible !important;
+}
 
 .course-card {
-    margin-bottom: 1.5rem;
+    margin-top: 1.3rem !important;
     transition: box-shadow 0.3s;
+    transition: transform 0.3s;
+    border: none;
 }
 
 .category {
@@ -77,15 +82,12 @@ body {
 }
 
 
-
-
-
-
 /* Category colors */
 /* Design */
 
 .design-card:hover {
-    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.15),
+    transform: translate(-3px, -3px);
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.15),
         inset 0px 8px 0px 0px #FCE9ED;
 }
 
@@ -109,7 +111,9 @@ body {
 /* development */
 
 .development-card:hover {
-    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.15),
+    transform: translate(-3px, -3px);
+
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.15),
         inset 0px 8px 0px 0px #EDFBFC;
 }
 
@@ -133,7 +137,8 @@ body {
 
 /* business */
 .business-card:hover {
-    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.15),
+    transform: translate(-3px, -3px);
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.15),
         inset 0px 8px 0px 0px #F6ECF7;
 }
 
