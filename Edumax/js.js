@@ -212,11 +212,14 @@ $(document).ready(function () {
 				items: 2
 			},
 			730: {
-				items: 3
+				items: 3,
+				stagePadding: 35,
 			},
 
 			1100: {
-				items: 5
+				items: 5,
+				stagePadding: 35,
+
 			}
 		}
 	});
@@ -234,11 +237,13 @@ $(document).ready(function () {
 		autoplayHoverPause: true,
 		responsive: {
 			185: {
-				items: 1
+				items: 1,
+				stagePadding: 35,
 			},
 
 			600: {
-				items: 2
+				items: 2,
+				stagePadding: 35,
 			},
 
 			1100: {
@@ -277,7 +282,6 @@ function open() {
 		$cardsContainer.css("height", containerHeight);
 		cardMode = false;
 		position = $(this)[0].getBoundingClientRect();
-		console.log(position);
 		initHeight = $(this).height();
 		initWidth = $(this).width();
 		$(this).addClass("fixed");
@@ -307,11 +311,10 @@ function open() {
 					.fadeIn(250);
 				$(this)
 					.siblings(".card")
-					.addClass("d-none");
+					.css("opacity", "0");
 				$(this).removeClass("noJquery");
 			}
 		);
-		// $(this).removeAttr("style");
 	}
 }
 
@@ -340,7 +343,7 @@ function close() {
 				$myCard.removeClass("fixed");
 				$myCard.attr("style", "");
 				$("html").scrollTop(scrollPosition);
-				$myCard.siblings(".card").removeClass("d-none");
+				$myCard.siblings().attr("style", "");
 				$myCard.addClass("noJquery");
 				$("html").attr("style", "");
 				$cardsContainer.attr("style", "");
@@ -353,6 +356,7 @@ function closeBtnFN() {
 	if (!cardMode) {
 		$("body").removeClass("noscroll");
 		let $myCard = $(this).closest(".card");
+		console.log($myCard.siblings());
 		$myCard.find(".card-body-inner-alt").fadeOut(250);
 		globalOverlay.animate({
 				opacity: 0
@@ -374,7 +378,7 @@ function closeBtnFN() {
 				$myCard.removeClass("fixed");
 				$myCard.attr("style", "");
 				$("html").scrollTop(scrollPosition);
-				$myCard.siblings(".card").removeClass("d-none");
+				$myCard.siblings().attr("style", "");
 				$myCard.addClass("noJquery");
 				$("html").attr("style", "");
 				$cardsContainer.attr("style", "");

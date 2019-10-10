@@ -41,8 +41,17 @@ body {
 	position: static !important;
 }
 
+.container-alt-body {
+	width: 85%;
+	margin: 7rem auto;
+}
+
 /* Large phones and tablets */
 @media (min-width: 575px) and (max-width: 1076px) {
+	.container-alt-body {
+		width: 90%;
+	}
+
 	.container-mine {
 		max-width: 90% !important;
 		position: static !important;
@@ -85,6 +94,11 @@ body {
 	.container-mine {
 		max-width: 95% !important;
 		position: static !important;
+	}
+
+	.container-alt-body {
+		width: 95%;
+		margin: 7rem auto;
 	}
 
 	.card-columns {
@@ -894,10 +908,7 @@ body {
 }
 
 
-.container-alt-body {
-	width: 85%;
-	margin: 7rem auto;
-}
+
 
 .course-gallery {
 	margin-top: 3rem;
