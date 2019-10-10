@@ -965,16 +965,20 @@ body {
 }
 
 .noJquery.design-card .category {
-	background-color: #fce9ed;
+
+	background: linear-gradient(141deg, #fce9ed 40%, #ffe2cf 100%);
 }
 
 .noJquery.design-card .category-circle {
 	background-color: #e6415f;
+
 }
 
 .noJquery.design-card .course-span a,
 .noJquery.design-card .course-span a:hover {
-	color: #e6415f;
+	background: -webkit-linear-gradient(141deg, #e6415f 20%, #e6418e 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .noJquery.design-card .btn-mine {
@@ -999,7 +1003,8 @@ body {
 }
 
 .noJquery.development-card .category {
-	background-color: #edfbfc;
+	background: linear-gradient(141deg, #e1fdff 40%, #ceffec 100%);
+
 }
 
 .noJquery.development-card .category-circle {
@@ -1008,7 +1013,9 @@ body {
 
 .noJquery.development-card .course-span a,
 .noJquery.development-card .course-span a:hover {
-	color: #4cd7e4;
+	background: -webkit-linear-gradient(141deg, #4cd7e4 20%, #4ce4d0 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .noJquery.development-card .btn-mine {
@@ -1031,7 +1038,7 @@ body {
 }
 
 .noJquery.business-card .category {
-	background-color: #f6ecf7;
+	background: linear-gradient(141deg, #fdeaff 40%, #eaedff 100%);
 }
 
 .noJquery.business-card .category-circle {
@@ -1040,7 +1047,9 @@ body {
 
 .noJquery.business-card .course-span a,
 .noJquery.business-card .course-span a:hover {
-	color: #a643b8;
+	background: -webkit-linear-gradient(45deg, #a643b8 40%, #5843b8 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .noJquery.business-card .btn-mine {
