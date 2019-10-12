@@ -1268,12 +1268,12 @@ body {
 
 
 
-body
+.relative
 {
     margin: 0%;
     padding: 0%;
     height: 3100px;
-	
+    position: relative;
     overflow-x: hidden;
 }
 
