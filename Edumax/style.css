@@ -474,6 +474,7 @@ body {
 	}
 
 	.cd-morph-dropdown .dropdown-list {
+		background-color: white;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -481,8 +482,8 @@ body {
 		-webkit-transform: translateZ(0);
 		transform: translateZ(0);
 		will-change: transform, width, height;
-		-webkit-transition: visibility 0.3s;
-		transition: visibility 0.3s;
+		-webkit-transition: visibility 0.2s;
+		transition: visibility 0.2s;
 		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 	}
 
@@ -1268,46 +1269,41 @@ body {
 
 
 
-body
-{
-    margin: 0%;
-    padding: 0%;
-    height: 3100px;
-	
-    overflow-x: hidden;
+body {
+	margin: 0%;
+	padding: 0%;
+	height: 3100px;
+
+	overflow-x: hidden;
 }
 
-.col-8
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+.col-8 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
 }
 
-.col-8 img
-{
-    display: flex;
-    width: 300px;
-    height:820px;
-}
-  
-.down
-{
-    margin: 0%;
-    padding: 0%;
-    position: fixed;
-    transform: translate(-50px);
-    bottom:-65px;
+.col-8 img {
+	display: flex;
+	width: 300px;
+	height: 820px;
 }
 
-.top
-{
-    margin: 0%;
-    padding: 0%;
-    position: fixed;
-    transform: translateX(50px);
-    top:50px;
+.down {
+	margin: 0%;
+	padding: 0%;
+	position: fixed;
+	transform: translate(-50px);
+	bottom: -65px;
+}
+
+.top {
+	margin: 0%;
+	padding: 0%;
+	position: fixed;
+	transform: translateX(50px);
+	top: 50px;
 }
 
 /* Course sample end*/
@@ -1316,162 +1312,157 @@ body
 
 /*=============================================================================================================*/
 /*#################################################  شكل الديفات  ##################################################*/
-.sora_1
-{
-    width: 100px;
-    height: 100px;
-    background-image: url(img/01.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: auto 100%;
-    border-radius: 50%;
-    border-color: #C6D0EB;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-    
-}
-.sora_2
-{
-    width: 100px;
-    height: 100px;
-    background-image: url(img/02.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: auto 100%;
-    border-radius: 50%;
-    border-color: #C6D0EB;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-    
+.sora_1 {
+	width: 100px;
+	height: 100px;
+	background-image: url(img/01.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: auto 100%;
+	border-radius: 50%;
+	border-color: #C6D0EB;
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+
 }
 
-.sora_3
-{
-    width: 100px;
-    height: 100px;
-    background-image: url(img/03.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: auto 100%;
-    border-radius: 50%;
-    border-color: #C6D0EB;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-    
+.sora_2 {
+	width: 100px;
+	height: 100px;
+	background-image: url(img/02.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: auto 100%;
+	border-radius: 50%;
+	border-color: #C6D0EB;
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+
 }
+
+.sora_3 {
+	width: 100px;
+	height: 100px;
+	background-image: url(img/03.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: auto 100%;
+	border-radius: 50%;
+	border-color: #C6D0EB;
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+
+}
+
 /*############################################################################################################*/
 
 /*##############################################  هوفر الزغللة  ################################################*/
-.dh2 .X-factor
-{
-    transition: .2s ease;
+.dh2 .X-factor {
+	transition: .2s ease;
 }
-.dh2:hover .X-factor
-{
-    filter: blur(2px);
+
+.dh2:hover .X-factor {
+	filter: blur(2px);
 }
 
 /*#########################################################################################################*/
 
 /*####################################   لما اهوفر اشيل الزغللة عن الدفات ################################################*/
-.sora-cont:hover .X-factor
-{
+.sora-cont:hover .X-factor {
 
-    filter: blur(0px) !important;
-    transform: scale(1.1) translate(0px , -5px);
-        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5)
-    
+	filter: blur(0px) !important;
+	transform: scale(1.1) translate(0px, -5px);
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5)
 }
 
 /*#############################################   #############################################*/
-.text-under-sora p
-{
-    color:  #C6D0EB;
-    font-size: 20px;
-    font-weight: 500;
-    display: inline-block;
-    transition: .2s ease;
-    text-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-    
-}
-.dh2:hover .text-under-sora p
-{
-    filter: blur(2px);
+.text-under-sora p {
+	color: #C6D0EB;
+	font-size: 20px;
+	font-weight: 500;
+	display: inline-block;
+	transition: .2s ease;
+	text-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+
 }
 
-.sora-cont:hover .text-under-sora p
-{
-    
+.dh2:hover .text-under-sora p {
+	filter: blur(2px);
+}
+
+.sora-cont:hover .text-under-sora p {
+
 	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    filter: blur(0px) !important;
-    transform: scale(1.1) translate(0px , -5px);
-        text-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5)
-    
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	filter: blur(0px) !important;
+	transform: scale(1.1) translate(0px, -5px);
+	text-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5)
 }
 
-.baseline-mine
-{
-    display: flex;
-    align-items: baseline;
-    
+.baseline-mine {
+	display: flex;
+	align-items: baseline;
+
 }
+
 /*===================================== السكشن بتاع create account =====================================================*/
-.khaled-text-part .ready-p 
-{
-    font-weight: 700;
-    font-size: 20px;
-    color: #08416E;
+.khaled-text-part .ready-p {
+	font-weight: 700;
+	font-size: 20px;
+	color: #08416E;
 }
-.khaled-text-part a
-{
-    text-decoration-color: #F67DB3;
+
+.khaled-text-part a {
+	text-decoration-color: #F67DB3;
 }
+
 .btn-kahled {
-border: none;
-background: #F67DB3;
-color: #ffffff !important;
-font-weight: 100;
-padding: 10px;
-text-transform: uppercase;
-border-radius: 6px;
-display: inline-block;
-transition: all 0.3s ease 0s;
+	border: none;
+	background: #F67DB3;
+	color: #ffffff !important;
+	font-weight: 100;
+	padding: 10px;
+	text-transform: uppercase;
+	border-radius: 6px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
 
 }
-.button_cont
-{
-    margin: 2%;
+
+.button_cont {
+	margin: 2%;
 }
-.button_cont a
-{
-    text-decoration: none;
+
+.button_cont a {
+	text-decoration: none;
 }
+
 .btn-kahled:hover {
-color: #404040 !important;
-font-weight: 700 !important;
-letter-spacing: 3px;
-background: none;
--webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
--moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-transition: all 0.3s ease 0s;
+	color: #404040 !important;
+	font-weight: 700 !important;
+	letter-spacing: 3px;
+	background: none;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+	transition: all 0.3s ease 0s;
 }
+
 /*================================================================================================*/
 @media screen and (max-width: 768px) {
-  .khaled-text-part {
-    display: none;
-  }
-    .w-25-mine
-    {
-        max-width: 25% !important;
-    }
-    .text-under-sora
-    {
-        display: none;
-    }
-    .m-mine
-    {
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
+	.khaled-text-part {
+		display: none;
+	}
+
+	.w-25-mine {
+		max-width: 25% !important;
+	}
+
+	.text-under-sora {
+		display: none;
+	}
+
+	.m-mine {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
 }
 
 
