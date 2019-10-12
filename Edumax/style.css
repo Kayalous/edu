@@ -1272,7 +1272,7 @@ body {
 {
     margin: 0%;
     padding: 0%;
-    height: 3100px;
+    height: 1300px;
     position: relative;
     overflow-x: hidden;
 }
@@ -1298,7 +1298,7 @@ body {
     padding: 0%;
     position: fixed;
     transform: translate(-50px);
-    bottom:-65px;
+    bottom:450px;
 }
 
 .top
@@ -1307,7 +1307,7 @@ body {
     padding: 0%;
     position: fixed;
     transform: translateX(50px);
-    top:50px;
+    top:px;
 }
 
 /* Course sample end*/
