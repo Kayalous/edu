@@ -1473,13 +1473,13 @@ body {
 
 /*=====================================================israa=========================================================================*/
 
-.relative
+.Relative
 {
     margin: 0%;
-    padding: 0%;
-    height:1300px;
-    overflow-x: hidden;
+	padding: 0%;
+	height:1000px;
     position: relative;
+	overflow: hidden;
 }
 
 .col-8
@@ -1494,7 +1494,7 @@ body {
 {
     display: flex;
     width: 100%;
-    height:820px;
+	height:820px
 }
   
 .down
@@ -1503,7 +1503,7 @@ body {
     padding: 0%;
     position: absolute;
     transform: translate(-50px);
-    bottom:450px;
+    bottom:50px;
 }
 
 .top
@@ -1512,10 +1512,11 @@ body {
     padding: 0%;
     position: absolute;
     transform: translateX(50px);
-    top:px;
+    top:50px;
 }
 
 /*=====================================================israa=========================================================================*/
+
 
 
 
