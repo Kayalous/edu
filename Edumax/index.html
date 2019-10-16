@@ -1694,24 +1694,19 @@
   <!--======================================================israa============================================================-->
 
 
-
-  <section class="app-section">
-    <div class="row phone-row">
-      <div class="col-12 mx-auto phone-container">
-        <div>
-          <img class="phone phone-up" src="1501.png">
-        </div>
-        <div>
-          <img class="phone phone-down" src="1502.png">
-        </div>
-      </div>
-    </div>
+  <section class="Relative">
     <div class="container">
       <div class="row">
-        <h1>Android & iOS Apps.</h1>
+        <div class="col-8">
+          <div class="col-lg-6 col-md-6  mr-auto">
+            <img class="down" src="1501.png">
+          </div>
+          <div class="col-lg-6 col-md-6  ml-auto">
+            <img class="top" src="1502.png">
+          </div>
+        </div>
       </div>
     </div>
-
   </section>
 
 
@@ -1931,6 +1926,20 @@
   <script src="owlCarousel/js/owl.carousel.min.js"></script>
   <!-- Main js file -->
   <script src="js.js"></script>
+
+  <script type="text/javascript">
+    $(document).on('scroll', function () {
+      $('.down').css("bottom", Math.max(50 - 0.35 * window.scrollY) +
+        "px")
+    })
+  </script>
+  <script type="text/javascript">
+    $(document).on('scroll', function () {
+      $('.top').css("top", Math.max(900 - 0.35 * window.scrollY) +
+        "px")
+    })
+  </script>
+
 
 </body>
 

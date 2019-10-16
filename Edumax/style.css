@@ -1441,58 +1441,41 @@ body {
 /*=====================================================israa=========================================================================*/
 
 
-.phone-container {
-	position: relative;
-	display: flex;
-	align-items: center;
-}
-
-.phone {
-	position: absolute;
-	display: inline-block;
-	width: auto;
-	height: 800px;
-}
-
-.phone-row {
-	height: 80vh;
+.Relative {
+	margin: 0%;
+	padding: 0%;
+	height: 1000px;
 	position: relative;
 	overflow: hidden;
 }
 
-.phone-up {
-	left: 25%;
+.col-8 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
 }
 
-.phone-down {
-	right: 25%;
+.col-8 img {
+	display: flex;
+	width: 100%;
+	height: 820px
 }
 
-@media screen and (max-width: 1300px) {
-	.phone {
-		height: 600px;
-	}
+.down {
+	margin: 0%;
+	padding: 0%;
+	position: absolute;
+	transform: translate(-50px);
+	bottom: 50px;
 }
 
-@media screen and (max-width: 880px) {
-	.phone-up {
-		left: 15%;
-	}
-
-	.phone-down {
-		right: 15%;
-	}
-
-	.phone {
-		height: 500px;
-
-	}
-}
-
-@media screen and (max-width: 580px) {
-	.phone-row {
-		display: none;
-	}
+.top {
+	margin: 0%;
+	padding: 0%;
+	position: absolute;
+	transform: translateX(50px);
+	top: 50px;
 }
 
 /*=====================================================israa=========================================================================*/
