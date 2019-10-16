@@ -386,3 +386,32 @@ function closeBtnFN() {
 		);
 	}
 }
+
+// ==================================== Israa ====================================
+
+$(document).on('scroll', function () {
+	let scrollFactor = 0.15;
+	let scrollMotion = scrollFactor * $(window).scrollTop();
+	let windowWitdh = $('.phone-container').width();
+	if (windowWitdh > 1215) {
+		$('.phone-up').css("top", (-650 + scrollMotion) +
+			"px")
+		$('.phone-down').css("top", (650 - scrollMotion) +
+			"px")
+	} else if (windowWitdh > 1075) {
+		$('.phone-up').css("top", (-620 + scrollMotion) +
+			"px")
+		$('.phone-down').css("top", (700 - scrollMotion) +
+			"px")
+	} else if (windowWitdh > 786) {
+		$('.phone-up').css("top", (-800 + scrollMotion) +
+			"px")
+		$('.phone-down').css("top", (800 - scrollMotion) +
+			"px")
+	} else if (windowWitdh >= 580) {
+		$('.phone-up').css("top", (-700 + scrollMotion) +
+			"px")
+		$('.phone-down').css("top", (900 - scrollMotion) +
+			"px")
+	}
+})

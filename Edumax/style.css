@@ -425,7 +425,7 @@ body {
 		height: 70px;
 		line-height: 70px;
 		color: #2f2e36;
-		opacity: 0.6;
+		opacity: 0.85;
 		font-size: 1.4rem;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
@@ -1267,48 +1267,6 @@ body {
 	color: black;
 }
 
-
-
-
-
-
-body {
-	margin: 0%;
-	padding: 0%;
-	height: 3100px;
-
-	overflow-x: hidden;
-}
-
-.col-8 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: auto;
-}
-
-.col-8 img {
-	display: flex;
-	width: 300px;
-	height: 820px;
-}
-
-.down {
-	margin: 0%;
-	padding: 0%;
-	position: fixed;
-	transform: translate(-50px);
-	bottom: -65px;
-}
-
-.top {
-	margin: 0%;
-	padding: 0%;
-	position: fixed;
-	transform: translateX(50px);
-	top: 50px;
-}
-
 /* Course sample end*/
 
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ المعلم خالد @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
@@ -1418,6 +1376,7 @@ body {
 }
 
 .btn-kahled {
+	white-space: nowrap;
 	border: none;
 	background: #F67DB3;
 	color: #ffffff !important;
@@ -1442,10 +1401,15 @@ body {
 	color: #404040 !important;
 	font-weight: 700 !important;
 	letter-spacing: 3px;
-	background: none;
+	background: white;
 	-webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
 	-moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
 	transition: all 0.3s ease 0s;
+}
+
+.m-mine {
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 /*================================================================================================*/
@@ -1476,41 +1440,59 @@ body {
 
 /*=====================================================israa=========================================================================*/
 
-.Relative {
-	margin: 0%;
-	padding: 0%;
-	height: 1000px;
+
+.phone-container {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.phone {
+	position: absolute;
+	display: inline-block;
+	width: auto;
+	height: 800px;
+}
+
+.phone-row {
+	height: 80vh;
 	position: relative;
 	overflow: hidden;
 }
 
-.col-8 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: auto;
+.phone-up {
+	left: 25%;
 }
 
-.col-8 img {
-	display: flex;
-	width: 100%;
-	height: 820px
+.phone-down {
+	right: 25%;
 }
 
-.down {
-	margin: 0%;
-	padding: 0%;
-	position: absolute;
-	transform: translate(-50px);
-	bottom: 50px;
+@media screen and (max-width: 1300px) {
+	.phone {
+		height: 600px;
+	}
 }
 
-.top {
-	margin: 0%;
-	padding: 0%;
-	position: absolute;
-	transform: translateX(50px);
-	top: 50px;
+@media screen and (max-width: 880px) {
+	.phone-up {
+		left: 15%;
+	}
+
+	.phone-down {
+		right: 15%;
+	}
+
+	.phone {
+		height: 500px;
+
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.phone-row {
+		display: none;
+	}
 }
 
 /*=====================================================israa=========================================================================*/
