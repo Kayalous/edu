@@ -926,6 +926,11 @@ body {
 	flex-wrap: wrap;
 }
 
+.container-alt-body .signup .button_cont {
+	text-align: center;
+	width: 10rem;
+}
+
 .category {
 	user-select: none;
 	-webkit-user-select: none;
