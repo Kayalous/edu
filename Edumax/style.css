@@ -1483,6 +1483,39 @@ body {
 	top: 50px;
 }
 
+
+.prnt
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	color: blue;
+
+}
+
+.shadow1 p
+{
+   font-size: 21px;
+   line-height:5px;
+}
+
+.shadow1
+{
+	border-radius: 10px;
+	border-color:gray;
+	background-color:#f1ecf7;
+}
+.shadow1 button
+{
+	text-decoration: none !important;
+}
+
+.shadow1:hover
+{
+	box-shadow:2px 5px 2px 5px rgba(43, 129, 209, 0.5);
+}
+
 /*=====================================================israa=========================================================================*/
 
 
