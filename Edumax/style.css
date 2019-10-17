@@ -1445,7 +1445,6 @@ body {
 
 /*=====================================================israa=========================================================================*/
 
-
 .Relative {
 	margin: 0%;
 	padding: 0%;
@@ -1491,32 +1490,87 @@ body {
 	align-items: center;
 	margin: auto;
 	color: blue;
-
 }
 
-.shadow1 p
-{
-   font-size: 21px;
-   line-height:5px;
+.btn-link__share{
+	padding: 10px 10px;
+	text-decoration: none;
+    background-color: #eee;
+    border-radius: 10px;
+	width: 200px;
+	border: 1px solid #d6d3d3;
+	color:#374d6f;
+	margin: 10px auto;
+	display:table;
 }
 
-.shadow1
-{
-	border-radius: 10px;
-	border-color:gray;
-	background-color:#f1ecf7;
-}
-.shadow1 button
-{
-	text-decoration: none !important;
+.btn-link__share:hover,
+.btn-link__share:active{
+	box-shadow: 1px 1px 11px 2px #4a8ab1;
+	text-decoration: none;
 }
 
-.shadow1:hover
-{
-	box-shadow:2px 5px 2px 5px rgba(43, 129, 209, 0.5);
+.btn-link__icon{
+	height: 50px;
+	width: 50px;
+	float: left;
 }
+
+.btn-link__sub-title{
+	font-size: 13px;
+    font-weight: 600;
+    color: #374d6f;
+    text-align: left;
+    padding-left: 55px !important;
+}
+
+
+.btn-link__main-title{
+	font-size:23px;
+	font-weight: 900;
+	color:#374d6f;
+}
+
+/* Media For SM Screen */
+@media only screen and (max-width : 992px) and (min-width : 768px){
+	.fix img {
+		height: 620px
+	}
+}
+
+/* Media For XS screen */
+@media only screen and (max-width: 767px) {
+	.btn-link__sub-title {
+		font-size: 10px;
+		padding-left: 34px !important;
+	}
+
+	.btn-link__icon {
+		height: 30px;
+		width: 30px;
+	}
+
+	.btn-link__share {
+		width: 150px;
+	}
+
+	.btn-link__main-title {
+		font-size: 17px;
+	}
+
+	.Relative {
+		height: 650px;
+	}
+
+	.fix img {
+		height: 420px
+	}
+}
+
+
 
 /*=====================================================israa=========================================================================*/
+
 
 
 /* 3laa */
