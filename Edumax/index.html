@@ -1704,8 +1704,7 @@
 
 
   <!--======================================================israa============================================================-->
-
-
+ 
   <section class="Relative">
     <div class="container">
       <div class="row">
@@ -1725,20 +1724,24 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-12 col-sm-12 prnt">
-                <div class="col-lg-4 col-md-6 col-sm-6 shadow1 my-5 mx-4 p-2">
-                    <button type="button" class="btn btn-link"><p>Dwonload on the</p>
-                    <h2>App Store</h2></button>
+                <div class="col-md-6 col-sm-6">
+                    <button type="button" class="btn btn-link btn-link__share">
+                      <img class="btn-link__icon" src="https://image.flaticon.com/icons/png/512/23/23656.png">
+                      <p class="p-0 m-0 btn-link__sub-title text-uppercase ">Dwonload on the</p>
+                      <p class="p-0 m-0 btn-link__main-title">App Store</p>
+                    </button>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 shadow1 my-5 mx-4 p-2">
-                    <button type="button" class="btn btn-link"><p>Get it on </p>
-                    <h2>Google Play</h2></button>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <button type="button" class="btn btn-link btn-link__share">
+                      <img class="btn-link__icon" src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/google_play-512.png">
+                      <p class="p-0 m-0 btn-link__sub-title text-uppercase ">Get it on</p>
+                      <p class="p-0 m-0 btn-link__main-title">Google Play</p>
+                  </button>
                 </div>
             </div>
           </div>
         </div>
       </section>
-
-
 
   <!--======================================================israa======================================================-->
 
@@ -1956,19 +1959,36 @@
   <!-- Main js file -->
   <script src="js.js"></script>
 
+  
+
+  <!--======================================================israa============================================================-->
+  
   <script type="text/javascript">
     $(document).on('scroll', function () {
-      $('.down').css("bottom", Math.max(50 - 0.35 * window.scrollY) +
-        "px")
+      if(window.scrollY > 7000  && $( document ).width() < 992) {
+        $('.down').css("bottom", Math.max(-0.35 * (window.scrollY-7000)) +"px")
+      }else if(window.scrollY > 4000 && $( document ).width() < 992){
+        $('.down').css("bottom", Math.max(-0.35 * (window.scrollY-4000)) +"px")
+      }else{
+        $('.down').css("bottom", Math.max(500 - 0.35 * window.scrollY) +"px")
+      } 
     })
   </script>
   <script type="text/javascript">
     $(document).on('scroll', function () {
-      $('.top').css("top", Math.max(900 - 0.35 * window.scrollY) +
-        "px")
+      if(window.scrollY > 7000  && $( document ).width() < 992) {
+        $('.top').css("top", Math.max(500- 0.35 * (window.scrollY-7000)) +"px")
+      }else if(window.scrollY > 4000  && $( document ).width() < 992){
+        $('.top').css("top", Math.max(500- 0.35 * (window.scrollY-4000)) +"px")
+      }else{
+        $('.top').css("top", Math.max(1500 - 0.35 * window.scrollY) +"px")
+      } 
     })
+        
   </script>
 
+
+  <!--======================================================israa============================================================-->
 
 </body>
 
