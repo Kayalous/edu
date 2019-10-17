@@ -1533,6 +1533,11 @@ body {
 
 /* Media For SM Screen */
 @media only screen and (max-width : 992px) and (min-width : 768px){
+	.Relative
+	{
+        height:700px;
+	}
+	
 	.fix img {
 		height: 620px
 	}
