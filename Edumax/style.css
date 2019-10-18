@@ -1531,6 +1531,111 @@ body {
 	color:#374d6f;
 }
 
+
+/* Sign in page */
+.sign-in__section {
+	position: relative;
+	height: 100vh;
+	position: relative;
+	margin: 0 10%;
+}
+
+.sign-in__section .container {
+	padding-top: 11%;
+
+}
+
+.sign-in__img {
+	height: 80vh;
+	width: 450px;
+}
+
+.sign-in__title {
+	font-size: 32px;
+	font-weight: 900;
+	color: rgb(40, 105, 179);
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+.sign-in__sub-title {
+	font-size: 19px;
+	font-weight: 400;
+	color: rgb(108, 109, 110);
+	line-height: 1.2;
+	margin-bottom: 50px;
+}
+
+.sign-in__input {
+	height: 70px;
+	border: none;
+}
+
+.sign-in__input--email {
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom: 1px solid #eee;
+}
+
+.sign-in__input--password {
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	margin-bottom: 20px;
+}
+
+.sign-in__remember,
+.sign-in__forget{
+color:#909090;
+}
+
+.sign-in__remember .fas{
+    color: #56ca56;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.sign-in__submit-btns{
+	margin-top: 86px;
+}
+
+.sign-in__login-btn,
+.sign-in__signup-btn{
+	border-radius: 9px;
+	padding: 13px 33px;
+	font-weight: 700;
+}
+
+.sign-in__login-btn{
+	background-color: rgb(40, 120, 196);
+	color: #fff;
+	margin-right: 15px;
+	margin-left: 25px;
+}
+
+.sign-in__signup-btn{
+	background-color: #fff;
+	color: #4c4c4c;
+}
+
+.sign-in__social{
+	margin-top: 25px;
+}
+
+.sign-in__social--logo img{
+	width: 40px;
+	height: 40px;
+}
+
+.sign-in__social--title{
+	color: #696868;
+}
+
+.sign-in__social--logo{
+	margin-left: 15px;;
+}
+
+
+
 /* Media For SM Screen */
 @media only screen and (max-width : 992px) and (min-width : 768px){
 	.Relative
