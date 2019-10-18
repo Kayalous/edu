@@ -861,14 +861,13 @@ body {
 }
 
 .card-body-inner-alt .card-img {
-	margin: 3rem 0;
+	margin: 3rem auto;
 	position: relative;
 	will-change: auto;
-	border-radius: 3px;
+	border-radius: 20px;
 	height: 400px;
 	width: 100%;
 	background-image: url("UIUX-1.jpg");
-	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -878,8 +877,8 @@ body {
 	bottom: -100px;
 	left: 10%;
 	position: absolute;
-	height: 200px;
-	width: 200px;
+	height: 270px;
+	width: 270px;
 	border: white solid 7px;
 	border-radius: 50%;
 	background-image: url("shutterstock_648907024.jpg");
@@ -888,14 +887,36 @@ body {
 	background-position: center center;
 }
 
-.course-title-alt {
-	font-weight: 700;
-	color: #1a1a1a;
+@media (max-width: 768px) {
+	.instructor-img {
+		bottom: -130px;
+		left: 24%;
+		position: absolute;
+		height: 270px;
+		width: 270px;
+		border: white solid 7px;
+		border-radius: 50%;
+		background-image: url("shutterstock_648907024.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+	}
 }
 
-.course-descreption-alt {
+.course-title-alt {
+	padding-left: 2rem;
+	font-weight: 700;
+	color: #10365D;
+}
+
+.course-descreption-alt h3 {
 	padding: 1.4rem 0;
-	color: #1a1a1a;
+
+}
+
+.course-descreption-alt h3 {
+	color: #053455;
+	font-weight: 700;
 }
 
 .course-descreption-alt ul {
@@ -906,29 +927,96 @@ body {
 .course-info-header-alt {
 	margin: 1.5rem 0;
 	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
+	justify-content: center;
+	align-content: flex-start;
+	align-items: flex-start;
 	flex-wrap: wrap;
 }
 
+.course-info-header-alt h3 {
+	text-align: center;
+	display: block;
+	width: 100%;
+	margin: 1rem auto;
+}
+
+.course-info-header-alt .dark-link {
+	color: #595959;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.seperator-lg {
+	width: 1px;
+	height: 100%;
+	opacity: 0.3;
+}
 
 
+.instructor-social-media {
+	font-size: 30px;
+	margin: 1.2rem auto;
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.instructor-social-media .feather {
+	cursor: pointer;
+	stroke: #26A8DA;
+	width: 25px;
+	height: 25px;
+}
+
+.sepertaor-horizontal {
+	height: 1px;
+	width: 100%;
+}
 
 .course-gallery {
+
 	margin-top: 3rem;
 }
 
-.container-alt-body .signup {
-	margin-top: 5rem;
-	display: flex;
-	align-items: baseline;
-	justify-content: space-around;
-	flex-wrap: wrap;
+.course-gallery h3 {
+	color: #053455;
+	font-weight: 700;
 }
 
-.container-alt-body .signup .button_cont {
+.course-signup-now {
+	margin-top: 5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 	text-align: center;
-	width: 10rem;
+}
+
+
+.course-signup-now h3 {
+	color: #053455;
+}
+
+.course-signup-now .feather {
+	stroke: #26A8DA;
+	stroke-width: 2;
+	width: 30px;
+	height: 30px;
+}
+
+.content-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.content-container img {
+	height: 5rem;
+	width: 5rem;
 }
 
 .category {
@@ -1272,8 +1360,7 @@ body {
 	color: black;
 }
 
-/* Course sample end*/
-
+/* Course sample end */
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ المعلم خالد @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
 /*=============================================================================================================*/
@@ -1483,8 +1570,7 @@ body {
 }
 
 
-.prnt
-{
+.prnt {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1492,43 +1578,43 @@ body {
 	color: blue;
 }
 
-.btn-link__share{
+.btn-link__share {
 	padding: 10px 10px;
 	text-decoration: none;
-    background-color: #eee;
-    border-radius: 10px;
+	background-color: #eee;
+	border-radius: 10px;
 	width: 200px;
 	border: 1px solid #d6d3d3;
-	color:#374d6f;
+	color: #374d6f;
 	margin: 10px auto;
-	display:table;
+	display: table;
 }
 
 .btn-link__share:hover,
-.btn-link__share:active{
+.btn-link__share:active {
 	box-shadow: 1px 1px 11px 2px #4a8ab1;
 	text-decoration: none;
 }
 
-.btn-link__icon{
+.btn-link__icon {
 	height: 50px;
 	width: 50px;
 	float: left;
 }
 
-.btn-link__sub-title{
+.btn-link__sub-title {
 	font-size: 13px;
-    font-weight: 600;
-    color: #374d6f;
-    text-align: left;
-    padding-left: 55px !important;
+	font-weight: 600;
+	color: #374d6f;
+	text-align: left;
+	padding-left: 55px !important;
 }
 
 
-.btn-link__main-title{
-	font-size:23px;
+.btn-link__main-title {
+	font-size: 23px;
 	font-weight: 900;
-	color:#374d6f;
+	color: #374d6f;
 }
 
 
@@ -1584,65 +1670,65 @@ body {
 }
 
 .sign-in__remember,
-.sign-in__forget{
-color:#909090;
+.sign-in__forget {
+	color: #909090;
 }
 
-.sign-in__remember .fas{
-    color: #56ca56;
-    padding: 0 10px;
-    font-size: 20px;
+.sign-in__remember .fas {
+	color: #56ca56;
+	padding: 0 10px;
+	font-size: 20px;
 }
 
-.sign-in__submit-btns{
+.sign-in__submit-btns {
 	margin-top: 86px;
 }
 
 .sign-in__login-btn,
-.sign-in__signup-btn{
+.sign-in__signup-btn {
 	border-radius: 9px;
 	padding: 13px 33px;
 	font-weight: 700;
 }
 
-.sign-in__login-btn{
+.sign-in__login-btn {
 	background-color: rgb(40, 120, 196);
 	color: #fff;
 	margin-right: 15px;
 	margin-left: 25px;
 }
 
-.sign-in__signup-btn{
+.sign-in__signup-btn {
 	background-color: #fff;
 	color: #4c4c4c;
 }
 
-.sign-in__social{
+.sign-in__social {
 	margin-top: 25px;
 }
 
-.sign-in__social--logo img{
+.sign-in__social--logo img {
 	width: 40px;
 	height: 40px;
 }
 
-.sign-in__social--title{
+.sign-in__social--title {
 	color: #696868;
 }
 
-.sign-in__social--logo{
-	margin-left: 15px;;
+.sign-in__social--logo {
+	margin-left: 15px;
+	;
 }
 
 
 
 /* Media For SM Screen */
-@media only screen and (max-width : 992px) and (min-width : 768px){
-	.Relative
-	{
-        height:700px;
+@media only screen and (max-width : 992px) and (min-width : 768px) {
+	.Relative {
+		height: 700px;
 	}
-	
+
 	.fix img {
 		height: 620px
 	}
