@@ -1632,8 +1632,14 @@ body {
 }
 
 .sign-in__img {
-	height: 80vh;
-	width: 450px;
+	height: 60vh;
+	width: auto;
+}
+
+@media screen and (max-width: 992px) {
+	.sign-in__img {
+		margin-top: 12rem;
+	}
 }
 
 .sign-in__title {
