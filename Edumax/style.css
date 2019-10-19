@@ -874,8 +874,9 @@ body {
 }
 
 .instructor-img {
-	bottom: -100px;
-	left: 10%;
+	top: -270px;
+	left: 50%;
+	margin-left: -135px;
 	position: absolute;
 	height: 270px;
 	width: 270px;
@@ -887,21 +888,6 @@ body {
 	background-position: center center;
 }
 
-@media (max-width: 768px) {
-	.instructor-img {
-		bottom: -130px;
-		left: 24%;
-		position: absolute;
-		height: 270px;
-		width: 270px;
-		border: white solid 7px;
-		border-radius: 50%;
-		background-image: url("shutterstock_648907024.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center center;
-	}
-}
 
 .course-title-alt {
 	padding-left: 2rem;
@@ -925,6 +911,7 @@ body {
 }
 
 .course-info-header-alt {
+	position: relative;
 	margin: 1.5rem 0;
 	display: flex;
 	justify-content: center;
