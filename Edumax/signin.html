@@ -163,7 +163,7 @@
     </header>
 
     <section class="sign-in__section  d-flex align-items-center">
-        <div class="container">
+        <div class="container  my-5">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-xs-6">
                     <img class="sign-in__img" src="./img/signin.png">
@@ -176,15 +176,18 @@
                     </p>
                     <form>
                         <input type="email" class="form-control sign-in__input sign-in__input--email"
-                            placeholder="Enter your mail">
+                            placeholder="Email Address">
                         <input type="password" class="form-control sign-in__input sign-in__input--password mt-1"
-                            placeholder="Enter your password">
-                        <div class="col-12">
+                            placeholder="Password">
+                        <div class="col-12 noselect">
                             <div class="float-left sign-in__remember">
-                                <i class="fas fa-check-circle"></i>
-                                Remember Me
+                                <div class="custom-control custom-checkbox custom-checkbox-mine">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label" for="customCheck1">Remember Me</label>
+                                </div>
+
                             </div>
-                            <div class="float-right sign-in__forget">Forget Password?</div>
+                            <a href="#" class="float-right sign-in__forget">Forget Password?</a>
                         </div>
                         <div class="sign-in__submit-btns">
                             <button class="btn sign-in__login-btn">Login Now</button>
@@ -197,9 +200,9 @@
                             Or you can join with
                         </p>
                         <div class="sign-in__social--logo">
-                            <img class="" src="./img/facebook.png">
-                            <img class="" src="./img/gmail.png">
-                            <img class="" src="./img/twitter.png">
+                            <a href="#"><img class="" src="./img/facebook.png"></a>
+                            <a href="#"><img class="" src="./img/gmail.png"></a>
+                            <a href="#"> <img class="" src="./img/twitter.png"></a>
                         </div>
                     </div>
                 </div>
